@@ -1,0 +1,136 @@
+* {
+    margin: 0px;
+}
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   background-color: #ffffff;
+  
+   padding-bottom: 8px;
+}
+.header a {
+    text-decoration: none;
+    color: black;
+    padding: 8px;
+    padding-top: 12px;
+    transition: 0.5s;
+    font-family: 'Oswald', sans-serif;
+    
+}
+.header a:hover {
+
+color: rgb(0, 130, 206);
+
+}
+.logo {
+   position: absolute;
+   left: 95px;
+   top: 7px;
+
+}
+
+
+.content {
+    border-top: 1px solid rgb(165, 165, 165);;
+    text-align: center;
+    background-color: rgb(242, 242, 242);
+}
+.topContent {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.topContent img {
+    padding: 20px;
+    width: 54%;
+    max-width: 450px;
+}
+.text h5 {
+    padding: 10px;
+    padding-top: 25px;
+    padding-bottom: 0px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.footer {
+    padding: 15px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.card {
+    background-color: rgb(255, 255, 255);
+    width: 130px;
+    height: 200px;
+    border: 1px solid;
+    margin: 15px;
+    text-align: center;
+    display: inline-block;
+}
+.cardFoto img{
+    display: block;
+   height: 100%;
+   width: 100%;
+   
+}
+.cardText {
+    border-top: 1px solid;
+    padding: 5px;
+    height: 40px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.cardFoto {
+    height: 125px;
+}
+.topText {
+    margin: 10px;
+    margin-left:20px ;
+}
+.carousel-item img {
+    max-width: 400px;
+    height: 300px;
+   
+}
+.carousel {
+    max-width: 400px;
+    margin:  auto;
+    margin-top: 30px;
+    
+}
+.lofoContainer img {
+    width: 35px;
+    
+    position: absolute;
+    left: 8px;
+    top: 8px;
+}
+@media screen and (max-width: 350px) {
+    .lofoContainer img {
+        opacity: 0;
+    }
+}
+
+    @media screen and (min-width: 800px) {
+       
+    .content {
+        padding: 10px 200px;
+    } 
+   
+    .text h5 {
+        padding: 20px 100px;
+       
+       
+    }
+    
+
+  }
+  .allFoto img {
+    max-width: 650px;
+    width: 90%;
+  }
+  .allFoto {
+    display: flex;
+    justify-content: center;
+  }
+  .listStud {
+    text-align: center;
+  }
